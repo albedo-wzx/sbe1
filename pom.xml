@@ -19,7 +19,14 @@
         <project.reporting.outputEncoding>Utf-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <spring-eureka.version>2.2.1.RELEASE</spring-eureka.version>
     </properties>
+
+    <modules>
+        <module>eureka-server</module>
+        <module>eureka-client</module>
+        <module>eureka-client2</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -51,13 +58,5 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
