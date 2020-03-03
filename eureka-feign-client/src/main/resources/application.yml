@@ -7,3 +7,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+#引入熔断器Hystrix
+feign:
+  hystrix:
+    enabled: true
