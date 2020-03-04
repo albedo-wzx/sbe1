@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6712ebc-35b9-46d5-a11b-9ab15b79839b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_turbine_turbine_core_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_turbine_2_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_turbine_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +21,7 @@
     <ignored path="$PROJECT_DIR$/eureka-ribbon-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-feign-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-zuul-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,45 +37,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state relative-caret-position="450">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/maven/repo/org/springframework/boot/spring-boot-starter-actuator/2.2.2.RELEASE/spring-boot-starter-actuator-2.2.2.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/eureka-zuul-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/albedo/eurekafeignclient/EurekaFeignClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/albedo/eurekazuulclient/EurekaZuulClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/RibbonService.java">
+        <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/maven/repo/org/springframework/cloud/spring-cloud-starter-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-dashboard-2.2.1.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-655" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/EurekaRibbonClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
@@ -105,29 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client-turbine/src/main/java/com/albedo/eurekaclientturbine/EurekaClientTurbineApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/maven/repo/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/maven/repo/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreakerImportSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -173,14 +170,17 @@
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/albedo/eurekafeignclient/HiHystrix.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/RibbonConfig.java" />
         <option value="$PROJECT_DIR$/eureka-feign-client/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/albedo/eurekafeignclient/EurekaFeignClientApplication.java" />
         <option value="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/RibbonService.java" />
-        <option value="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/EurekaRibbonClientApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client-turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-client-turbine/src/main/java/com/albedo/eurekaclientturbine/EurekaClientTurbineApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/EurekaRibbonClientApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-zuul-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/albedo/eurekazuulclient/EurekaZuulClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-zuul-client/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -224,6 +224,37 @@
           <item name="eureka-feign-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-ribbon-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-ribbon-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-ribbon-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-ribbon-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.netflix.hystrix:hystrix-metrics-event-stream:1.5.18" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-zuul-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-zuul-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -251,389 +282,66 @@
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="albedo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="albedo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaclientturbine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
               <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-turbine" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="albedo" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekazuulclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-zuul-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="albedo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="albedo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekafeignclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="albedo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="albedo" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaribbonclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sbe1" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-ribbon-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="circuitbreaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-commons:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-commons-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-hystrix-dashboard-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sbe1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-ribbon-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -682,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientTurbineApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -712,7 +420,7 @@
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.albedo.eurekaclient.EurekaClientApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8762" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8763" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -773,6 +481,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaZuulClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-zuul-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.albedo.eurekazuulclient.EurekaZuulClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -799,6 +514,7 @@
       <item itemvalue="Spring Boot.EurekaFeignClientApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
       <item itemvalue="Spring Boot.EurekaClientTurbineApplication" />
+      <item itemvalue="Spring Boot.EurekaZuulClientApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -826,12 +542,12 @@
       <workItem from="1583044953981" duration="4935000" />
       <workItem from="1583056283161" duration="1477000" />
       <workItem from="1583115984528" duration="17170000" />
-      <workItem from="1583245620869" duration="3872000" />
+      <workItem from="1583245620869" duration="5889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42327000" />
+    <option name="totallyTimeSpent" value="44344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -846,13 +562,13 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3283767" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3283767" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283767" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Problems" order="11" />
@@ -911,41 +627,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/albedo/eurekaclient/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/maven/repo/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar!/com/netflix/ribbon/RibbonTransportFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/maven/repo/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0-sources.jar!/com/netflix/ribbon/RibbonTransportFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/maven/repo/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/client/IPrimeConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/maven/repo/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/BaseLoadBalancer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1208,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1247,13 +921,6 @@
     <entry file="file://$USER_HOME$/maven/repo/org/springframework/boot/spring-boot-starter-actuator/2.2.2.RELEASE/spring-boot-starter-actuator-2.2.2.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/albedo/eurekafeignclient/EurekaFeignClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1275,18 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/EurekaRibbonClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-turbine/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -1305,6 +960,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/maven/repo/org/springframework/cloud/spring-cloud-starter-netflix-hystrix-dashboard/2.2.1.RELEASE/spring-cloud-starter-netflix-hystrix-dashboard-2.2.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon-client/src/main/java/com/albedo/eurekaribbonclient/EurekaRibbonClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-zuul-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/java/com/albedo/eurekazuulclient/EurekaZuulClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-zuul-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

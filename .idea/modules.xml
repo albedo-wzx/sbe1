@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-ribbon-client/eureka-ribbon-client.iml" filepath="$PROJECT_DIR$/eureka-ribbon-client/eureka-ribbon-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server (1).iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul-client/eureka-zuul-client.iml" filepath="$PROJECT_DIR$/eureka-zuul-client/eureka-zuul-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/sbe1.iml" filepath="$PROJECT_DIR$/sbe1.iml" />
     </modules>
   </component>
