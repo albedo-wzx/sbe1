@@ -18,6 +18,8 @@ zuul:
     feignapi:
       path: /feignapi/**
       serviceId: eureka-feign-client
+# 配置版本号
+  prefix: /v1
 
 # 自定义负载均衡列表
 #zuul:
