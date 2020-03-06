@@ -12,6 +12,7 @@
     <artifactId>sbe1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>sbe1</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,7 +20,6 @@
         <project.reporting.outputEncoding>Utf-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
-        <spring-eureka.version>2.2.1.RELEASE</spring-eureka.version>
     </properties>
 
     <modules>
@@ -55,8 +55,6 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependecies</artifactId>
                 <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

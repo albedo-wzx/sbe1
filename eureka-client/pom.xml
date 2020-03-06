@@ -6,13 +6,14 @@
         <groupId>com.albedo</groupId>
         <artifactId>sbe1</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.albedo</groupId>
     <artifactId>eureka-client</artifactId>
     <name>eureka-client</name>
     <description>Demo project for Spring Boot</description>
-
+    <properties>
+        <spring-eureka.version>2.2.1.RELEASE</spring-eureka.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
